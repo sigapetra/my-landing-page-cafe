@@ -1,0 +1,36 @@
+.about {
+  padding: 100px 40px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  position: relative;
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #6a0505;
+  position: relative;
+  display: inline-block;
+}
+
+.about h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: #a76d3e;
+  border-radius: 2px;
+}
+
+.about p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  line-height: 1.8;
+  color: #555;
+}

@@ -1,0 +1,23 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  z-index: 999;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #4B2E2E;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #E8C4A2;
+}
