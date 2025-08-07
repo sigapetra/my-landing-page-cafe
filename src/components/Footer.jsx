@@ -1,5 +1,5 @@
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock, FaInstagram, FaWhatsapp } from 'react-icons/fa';
-import '../styles/Footer.css'; 
+import '../styles/footer.css'; 
 // src/components/Footer.jsx
 import React from 'react';
 
